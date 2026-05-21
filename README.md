@@ -70,12 +70,9 @@ graph TD
 
 ## 📸 Screenshots
 
-> [!NOTE]
-> *Screenshots showcase the Rift Streamlit interface. Add screenshots of your local running instance to `/docs/screenshots/` and update the paths below.*
-
-| Document Management & Ingest | Context-Aware Chat & Citations |
-| :---: | :---: |
-| ![Sidebar UI Placeholder](https://via.placeholder.com/600x400.png?text=Rift+Sidebar+Document+Management) | ![Chat UI Placeholder](https://via.placeholder.com/600x400.png?text=Rift+Interactive+Chat+Interface) |
+<div align="center">
+  <img src="docs/screenshot.png" alt="Rift UI Screenshot" width="800">
+</div>
 
 ---
 
