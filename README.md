@@ -125,17 +125,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Configure Environment (Optional)
-
-Copy and edit the `.env` file to override any defaults:
-
-```bash
-cp .env .env.local
-```
-
-> [!TIP]
-> All configuration parameters have sensible defaults already pre-packaged in `config/settings.py`. No additional environment configuration is strictly required to get started.
-
 ---
 
 ## 🚀 Running the Application
@@ -192,7 +181,6 @@ rift/
 ├── config/
 │   └── settings.py             # Centralized configuration
 │
-├── .env                        # Environment overrides
 ├── .gitignore
 ├── requirements.txt
 ├── README.md
@@ -203,7 +191,7 @@ rift/
 
 ## 🎛️ Configuration Reference
 
-All application settings are centralized in `config/settings.py` and can be easily overridden via system environment variables or local `.env` parameters:
+All application settings are centralized in `config/settings.py` and can be overridden via environment variables:
 
 | Setting | Default | Description |
 | :--- | :--- | :--- |
